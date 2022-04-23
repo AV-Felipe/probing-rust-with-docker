@@ -29,4 +29,4 @@ jobs:
           script: |
             cd ${{ secrets.PROJECT_PATH }} 
             git pull
-            docker build -f ./Dockerfile1 -t holodeck-1 .
+            docker build -f ./Dockerfile2 -t holodeck-2 .
